@@ -1,0 +1,42 @@
+{
+  "name": "sshexecmulti",
+  "version": "0.0.1",
+  "description": "Executes a shell command on multiple remote machines",
+  "repository": "",
+  "author": {
+    "name": "Alexandru Savin",
+    "email": "alexandrusavin@gmail.com",
+    "url": ""
+  },
+  "keywords": [
+    "gruntplugin", 
+    "ssh", 
+    "scp",
+    "sftp",
+    "remote",
+    "exec",
+    "rexec",
+    "multiple",
+    "hosts"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt-ssh": "^0.12.0",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "extend": "^2.0.0"
+  }
+}
